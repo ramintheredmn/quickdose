@@ -86673,7 +86673,7 @@ A.o4.prototype={
 Bw(a,b,c,d,e,f){return this.ar_(a,b,c,d,e,f)},
 ar_(a,b,c,d,e,f){var s=0,r=A.J(t.a),q,p,o,n,m
 var $async$Bw=A.F(function(g,h){if(g===1)return A.G(h,r)
-while(true)switch(s){case 0:p=A.dz("http://127.0.0.0:8000/auth/register",0,null)
+while(true)switch(s){case 0:p=A.dz("http://127.0.0.1:8000/auth/register",0,null)
 o=t.N
 n=A.l(["Content-Type","application/json"],o,o)
 s=3
@@ -86687,7 +86687,7 @@ return A.I($async$Bw,r)},
 lo(a,b,c){return this.ap2(a,b,c)},
 ap2(a,b,c){var s=0,r=A.J(t.N),q,p,o,n,m,l,k
 var $async$lo=A.F(function(d,e){if(d===1)return A.G(e,r)
-while(true)switch(s){case 0:n=A.dz("http://127.0.0.0:8000/auth/token",0,null)
+while(true)switch(s){case 0:n=A.dz("http://127.0.0.1:8000/auth/token",0,null)
 m=t.N
 l=A.l(["Content-Type","application/x-www-form-urlencoded"],m,m)
 s=3
@@ -86725,7 +86725,7 @@ case 3:n=m.cs(b.a.h(0,"access_token"))
 if(n==null)throw A.h(A.c5("No token found"))
 p=t.N
 s=4
-return A.K(A.aDE(A.dz("http://127.0.0.0:8000/auth/me",0,null),A.l(["Authorization","Bearer "+n],p,p)),$async$n8)
+return A.K(A.aDE(A.dz("http://127.0.0.1:8000/auth/me",0,null),A.l(["Authorization","Bearer "+n],p,p)),$async$n8)
 case 4:o=b
 if(o.b===200){q=B.bf.un(A.Xy(A.Xk(o.e).c.a.h(0,"charset")).e4(o.w),null)
 s=1
@@ -86741,7 +86741,7 @@ case 3:n=m.cs(b.a.h(0,"access_token"))
 if(n==null)throw A.h(A.c5("No token found"))
 p=t.N
 s=4
-return A.K(A.aDE(A.dz("http://127.0.0.0:8000/subscriptions/active",0,null),A.l(["Authorization","Bearer "+n],p,p)),$async$kz)
+return A.K(A.aDE(A.dz("http://127.0.0.1:8000/subscriptions/active",0,null),A.l(["Authorization","Bearer "+n],p,p)),$async$kz)
 case 4:o=b
 if(o.b===200){q=B.bf.un(A.Xy(A.Xk(o.e).c.a.h(0,"charset")).e4(o.w),null)
 s=1
